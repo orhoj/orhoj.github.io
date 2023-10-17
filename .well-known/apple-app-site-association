@@ -1,11 +1,18 @@
 {
   "applinks": {
-      "apps": [],
       "details": [
-      {
-        "appID": "K762RM4LQ3.software.concordium.mobilewallet.seedphrase.testnet",
-        "paths": ["*"]
-      }
-    ]
-  }
+           {
+             "appIDs": ["K762RM4LQ3.software.concordium.mobilewallet.seedphrase.testnet"],
+             "components": [
+               {
+                  "/": "*",
+                  "comment": "Matches any URL."
+               },
+             ]
+           }
+       ]
+   },
+    "appclips": {
+        "apps": ["K762RM4LQ3.software.concordium.mobilewallet.seedphrase.testnet"]
+    }
 }
